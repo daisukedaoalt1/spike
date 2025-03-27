@@ -928,7 +928,7 @@ const bC = {
   [d(428)]: 82,
   [d.call(undefined, 429)]: 83,
   [d(430)]: 84,
-  [d.apply(undefined, [431])]: 85,
+  WATERING_CAN_FULL: 85,//WATERING_CAN_FULL
   [d.apply(undefined, [432])]: 86,
   [d(433)]: 87,
   [d(434)]: 88,
@@ -11551,7 +11551,7 @@ const bC = {
                 if (bw[d(157)][d(159)]) {
                   if (av[e.call(undefined, 3183)].n[INV[d(431)]]) {
                     if (f[d(2006)] !== INV[d(431)]) {
-                      ar[e.apply(undefined, [3184])](INV[d.apply(undefined, [431])]);
+                      ar[e.apply(undefined, [3184])](INV.WATERING_CAN_FULL);
                     }
                     g[d(3177)] = 1;
                   }
